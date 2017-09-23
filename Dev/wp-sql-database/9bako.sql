@@ -104,8 +104,8 @@ CREATE TABLE IF NOT EXISTS `appsolution_options` (
 --
 
 INSERT INTO `appsolution_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
-(1, 'siteurl', 'http://localhost:88/9bako-web/dev', 'yes'),
-(2, 'home', 'http://localhost:88/9bako-web/dev', 'yes'),
+(1, 'siteurl', 'http://localhost/9bako-web/dev', 'yes'),
+(2, 'home', 'http://localhost/9bako-web/dev', 'yes'),
 (3, 'blogname', '9bako', 'yes'),
 (4, 'blogdescription', 'Just another WordPress site', 'yes'),
 (5, 'users_can_register', '0', 'yes'),
@@ -290,9 +290,9 @@ CREATE TABLE IF NOT EXISTS `appsolution_posts` (
 --
 
 INSERT INTO `appsolution_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_content_filtered`, `post_parent`, `guid`, `menu_order`, `post_type`, `post_mime_type`, `comment_count`) VALUES
-(1, 1, '2017-09-23 08:57:45', '2017-09-23 08:57:45', 'Welcome to WordPress. This is your first post. Edit or delete it, then start writing!', 'Hello world!', '', 'publish', 'open', 'open', '', 'hello-world', '', '', '2017-09-23 08:57:45', '2017-09-23 08:57:45', '', 0, 'http://localhost:88/9bako-web/dev/?p=1', 0, 'post', '', 1),
-(2, 1, '2017-09-23 08:57:45', '2017-09-23 08:57:45', 'This is an example page. It''s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:\n\n<blockquote>Hi there! I''m a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin'' caught in the rain.)</blockquote>\n\n...or something like this:\n\n<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>\n\nAs a new WordPress user, you should go to <a href="http://localhost:88/9bako-web/dev/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!', 'Sample Page', '', 'publish', 'closed', 'open', '', 'sample-page', '', '', '2017-09-23 08:57:45', '2017-09-23 08:57:45', '', 0, 'http://localhost:88/9bako-web/dev/?page_id=2', 0, 'page', '', 0),
-(3, 1, '2017-09-23 08:59:25', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'open', 'open', '', '', '', '', '2017-09-23 08:59:25', '0000-00-00 00:00:00', '', 0, 'http://localhost:88/9bako-web/dev/?p=3', 0, 'post', '', 0);
+(1, 1, '2017-09-23 08:57:45', '2017-09-23 08:57:45', 'Welcome to WordPress. This is your first post. Edit or delete it, then start writing!', 'Hello world!', '', 'publish', 'open', 'open', '', 'hello-world', '', '', '2017-09-23 08:57:45', '2017-09-23 08:57:45', '', 0, 'http://localhost/9bako-web/dev/?p=1', 0, 'post', '', 1),
+(2, 1, '2017-09-23 08:57:45', '2017-09-23 08:57:45', 'This is an example page. It''s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:\n\n<blockquote>Hi there! I''m a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin'' caught in the rain.)</blockquote>\n\n...or something like this:\n\n<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>\n\nAs a new WordPress user, you should go to <a href="http://localhost/9bako-web/dev/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!', 'Sample Page', '', 'publish', 'closed', 'open', '', 'sample-page', '', '', '2017-09-23 08:57:45', '2017-09-23 08:57:45', '', 0, 'http://localhost/9bako-web/dev/?page_id=2', 0, 'page', '', 0),
+(3, 1, '2017-09-23 08:59:25', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'open', 'open', '', '', '', '', '2017-09-23 08:59:25', '0000-00-00 00:00:00', '', 0, 'http://localhost/9bako-web/dev/?p=3', 0, 'post', '', 0);
 
 -- --------------------------------------------------------
 
