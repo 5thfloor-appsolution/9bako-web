@@ -1,10 +1,10 @@
->> Web Development
+> Web Development: 
 Ocky
 Heru
 Njay
 Tohir
 
->> Database
+> Database: 
 Vendor {
 id_vendor (pk),
 id_payment_method (fk),
@@ -72,7 +72,7 @@ id_rating (pk),
 id_customer (fk),
 id_vendor (fk),
 rate,
-review,
+review
 }
 
 Comments {
@@ -80,8 +80,8 @@ id_comment (pk),
 id_cutomer (fk),
 comment,
 created_date,
-update_date,
+update_date
 }
 
->> Prototype
-![Prototype V0.0.1](https://github.com/5thfloor-appsolution/9bako-web/tree/master/Prototype/V0.0.1.png?raw=true "Prototype V0.0.1")
+> Prototype: 
+![Prototype V0.0.1](https://github.com/5thfloor-appsolution/9bako-web/tree/master/Prototype/V0.0.1.jpg?raw=true "Prototype V0.0.1")
