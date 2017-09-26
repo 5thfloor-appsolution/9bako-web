@@ -1,10 +1,11 @@
 > Web Development: 
-Ocky
-Heru
-Njay
-Tohir
+Ocky Aditia @ockyaditia,
+Heru Setiadi @HerSet, 
+Fauzi Makarim,
+Ahmad Tohirien
 
 > Database: 
+
 Vendor {
 id_vendor (pk),
 id_payment_method (fk),
@@ -14,7 +15,7 @@ username,
 pass,
 metadata,
 created_date,
-updated_date,
+updated_date
 }
 
 Customer {
@@ -24,7 +25,7 @@ email,
 pass,
 metadata,
 created_date,
-updated_date,
+updated_date
 }
 
 Product {
@@ -33,7 +34,7 @@ id_vendor (fk),
 id_comment (fk),
 count,
 price,
-metadata,
+metadata
 }
 
 Transaction {
@@ -81,6 +82,12 @@ id_cutomer (fk),
 comment,
 created_date,
 update_date
+}
+
+Favourite {
+id_favourite (pk),
+id_vendor (fk),
+id_customer (fk)
 }
 
 > Prototype: 
