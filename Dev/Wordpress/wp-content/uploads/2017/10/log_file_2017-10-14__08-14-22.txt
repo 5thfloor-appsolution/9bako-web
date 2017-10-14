@@ -1,0 +1,71 @@
+
+---Downloaded files---
+The import files for: Default Demo Content were successfully downloaded!
+Initial max execution time = 3000
+Files info:
+Site URL = http://localhost/9bako-web/Dev/Wordpress
+Data file = C:\xampp\htdocs\9bako-web\Dev\Wordpress\wp-content\plugins\one-click-demo-import/inc/plus/excellent-plus.xml
+Widget file = C:\xampp\htdocs\9bako-web\Dev\Wordpress\wp-content\plugins\one-click-demo-import/inc/plus/excellent-plus-widgets.wie
+Customizer file = C:\xampp\htdocs\9bako-web\Dev\Wordpress\wp-content\plugins\one-click-demo-import/inc/plus/excellent-plus-export.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+excellent_footer_options : Sidebar does not exist in theme (moving widget to Inactive)
+
+Text - No Title - Imported to Inactive
+
+Footer Column 1 : 
+
+Text - Excellent Plus - Imported
+
+Footer Column 2 : 
+
+Recent Posts With Thumbnails - Featured Posts - Imported
+
+Footer Column 3 : 
+
+Text - Opening Time - Imported
+
+Main Sidebar : 
+
+Recent Posts With Thumbnails - Recent News - Imported
+Archives - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Meta - No Title - Widget already exists
+
+Top Header Info : 
+
+Text - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

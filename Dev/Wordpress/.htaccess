@@ -2,11 +2,15 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /9bako-web/dev/
+RewriteBase /9bako-web/Dev/Wordpress/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /9bako-web/dev/index.php [L]
+RewriteRule . /9bako-web/Dev/Wordpress/index.php [L]
 </IfModule>
 
 # END WordPress
+	# WP Maximum Execution Time Exceeded
+	<IfModule mod_php5.c>
+		php_value max_execution_time 300
+	</IfModule>
